@@ -4,7 +4,7 @@
 .flexbox {
     padding: 15px;
     margin: 20px auto;
-    background-color: #f0f0f0;
+    background-color: #999;
     display: flex;
     justify-content: center;
 }
@@ -28,54 +28,4 @@
     background-color: #f39;
     border-radius: 5px;
     font-weight: bold;
-}
-
-/* Login Form */
-.form {
-    padding: 30px 40px;
-    margin: 0 auto;
-    border: 2px solid #999;
-    max-width: 500px;
-    min-width: none;
-    background-color: #f0f0f0;
-}
-.headline {
-    font-weight: bold;
-}
-.form-table {
-    width: 100%;
-}
-.form-table th {
-    display: block;
-    margin: 10px 0 0;
-    text-align: left;
-    width: 100%;
-}
-.input {
-    border-radius: 5px;
-    border: 1px solid #666;
-    padding: 10px 0;
-    width: 100%;
-}
-.form-button {
-    margin-top: 40px;
-    text-align: center;
-}
-.button {
-    border: 1px solid #666;
-    background-color: #f4e511;
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 10px 0;
-    width: 99%;
-    cursor: pointer;
-}
-.not-account {
-    margin: 30px 0;
-    text-align: left;
-}
-.not-account a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #00f;
 }
